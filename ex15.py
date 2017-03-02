@@ -5,6 +5,7 @@
 # Description: reading a file and printing it.
 # open(filename) returns object of filename
 # read() returns contents of a fileObject
+# close() closes the file
 
 from sys import argv
 
@@ -22,3 +23,6 @@ file_again = raw_input("> ")
 txt_again = open(file_again)
 
 print txt_again.read()
+
+text.close()
+txt_again.close()
